@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Football Club</string>
+    <string name="title_match">Match</string>
+    <string name="title_team">Team</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_last_match">Last Match</string>
+    <string name="title_next_match">Next Match</string>
+    <string name="title_favorite_match">Favorite Match</string>
+    <string name="title_favorite_team">Favorite Team</string>
+    <string name="title_search">Search</string>
+    <string name="title_search_match">Search Match</string>
+    <string name="title_search_team">Search Team</string>
+    <string name="title_overview">Overview</string>
+    <string name="title_player">Player</string>
+    <string name="vs">VS</string>
+    <string name="init_date">Monday, 22 October 2018</string>
+    <string name="init_home_team">Arsenal</string>
+    <string name="init_away_team">Leicester</string>
+    <string name="init_home_score">3</string>
+    <string name="init_away_score">1</string>
+    <string name="init_home_goal_details">45\':Mesut Oezil;63\':Pierre-Emerick Aubameyang;66\':Pierre-Emerick
+        Aubameyang;
+    </string>
+    <string name="init_away_goal_details">31\':Hector Bellerin (Own goal);</string>
+    <string name="init_home_goal_keeper">Bernd Leno;</string>
+    <string name="init_away_goal_keeper">Kasper Schmeichel;</string>
+    <string name="init_home_defense">Hector Bellerin; Shkodran Mustafi; Rob Holding; Nacho Monreal;</string>
+    <string name="init_away_defense">Daniel Amartey; Jonny Evans; Harry Maguire; Ben Chilwell;</string>
+    <string name="init_home_midfield">Lucas Torreira; Granit Xhaka; Mesut Oezil; Aaron Ramsey; Pierre-Emerick
+        Aubameyang;
+    </string>
+    <string name="init_away_midfield">Onyinye Ndidi; Nampalys Mendy; Ricardo Pereira; James Maddison; Marc Albrighton;
+    </string>
+    <string name="init_home_forward">Alexandre Lacazette;</string>
+    <string name="init_away_forward">Jamie Vardy;</string>
+    <string name="init_home_substitutes">Emiliano Martinez; Matteo Guendouzi; Emile Smith-Rowe; Aaron Ramsey; Danny
+        Welbeck; Pierre-Emerick Aubameyang; Zech Medley;
+    </string>
+    <string name="init_away_substitutes">Danny Ward; Caglar Soyuncu; Christian Fuchs; Marc Albrighton; Vicente Iborra;
+        Rachid Ghezzal; Shinji Okazaki;
+    </string>
+    <string name="lineup">Lineup</string>
+    <string name="defense">Defense</string>
+    <string name="midfield">Midfield</string>
+    <string name="forward">Forward</string>
+    <string name="substitute">Substitute</string>
+    <string name="goal_keeper">Goal Keeper</string>
+    <string name="match_detail">Match Detail</string>
+    <string name="item_added">Item Added</string>
+    <string name="could_not_add_item">Could Not Add Item</string>
+    <string name="item_deleted">Item Deleted</string>
+    <string name="could_not_delete_item">Could Not Delete Item</string>
+    <string name="event_already_exist_on_calendar">Event already exist on calendar</string>
+    <string name="permission_required">Service Permissions are required for this app</string>
+    <string name="need_mandatory_permission">You need to give some mandatory permissions to continue. Do you want to go to app settings?</string>
+    <string-array name="league_name">
+        <item>English Premier League</item>//4328
+        <item>German Bundesliga</item>//4331
+        <item>Italian Serie A</item>//4332
+        <item>Spanish La Liga</item>//4335
+        <item>Russian Football Premier League</item>//4355
+    </string-array>
+    <string-array name="league_id">
+        <item>4328</item>//English Premier League
+        <item>4331</item>//German Bundesliga
+        <item>4332</item>//Italian Serie A
+        <item>4335</item>//Spanish La Liga
+        <item>4355</item>//Russian Football Premier League
+    </string-array>
+    <string name="manager">Manager</string>
+    <string name="init_manager">Unai Emery</string>
+    <string name="stadium">Stadium</string>
+    <string name="init_stadium">Emirates Stadium</string>
+    <string name="description">Description</string>
+    <string name="init_description">Arsenal Football Club is a professional football club based in Holloway, London
+        which currently plays in the Premier League, the highest level of English football. One of the most successful
+        clubs in English football, they have won 13 First Division and Premier League titles and a joint record 11 FA
+        Cups.\r\n\r\nArsenal\'s success has been particularly consistent: the club has accumulated the second most
+        points in English top-flight football, hold the ongoing record for the longest uninterrupted period in the top
+        flight, and would be placed first in an aggregated league of the entire 20th century. Arsenal is the second side
+        to complete an English top-flight season unbeaten (in the 2003–04 season), playing almost twice as many matches
+        as the previous invincibles Preston North End in the 1888–89 season.\r\n\r\nArsenal was founded in 1886 in
+        Woolwich and in 1893 became the first club from the south of England to join the Football League. In 1913, they
+        moved north across the city to Arsenal Stadium in Highbury. In the 1930s, they won five League Championship
+        titles and two FA Cups. After a lean period in the post-war years they won the League and FA Cup Double, in the
+        1970–71 season, and in the 1990s and first decade of the 21st century, won two more Doubles and reached the 2006
+        UEFA Champions League Final. Since neighbouring Tottenham Hotspur, the two clubs have had a fierce rivalry, the
+        North London derby.\r\n\r\nArsenal have one of the highest incomes and largest fanbases in the world. The club
+        was named the fifth most valuable association football club in the world, valued at £1.3 billion in 2014.
+    </string>
+    <string name="init_player_name">Aaron Ramsey</string>
+    <string name="init_player_position">Midfielder</string>
+    <string name="init_player_birth_date">1990&#8211;12&#8211;26</string>
+    <string name="init_player_description">Aaron James Ramsey /ˈræmzi/ (born 26 December 1990) is a Welsh footballer who
+        plays as a midfielder for Arsenal and the Wales national football team. Ramsey mainly plays as a box-to-box
+        midfielder, but has also been deployed on the left and right wings. He played as a schoolboy for Cardiff City,
+        where he spent eight years in youth football, became the club\'s youngest ever first team player, and made 22
+        appearances for the senior team – including the 2008 FA Cup Final.\r\n\r\nRamsey moved to Arsenal in 2008 in a
+        £5 million deal, where he quickly gained first team experience. However, his career stalled significantly after
+        he suffered a broken leg in a match against Stoke City in February 2010. After two loan spells away from
+        Arsenal, he returned to full fitness and re-established himself as a regular starter during the 2011–12 season.
+        Ramsey was a key player for Arsenal in the 2013–14 season campaign, scoring 16 goals in all competitions,
+        including the winner in the 2014 FA Cup Final.
+    </string>
+    <string name="player_detail">Player Detail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

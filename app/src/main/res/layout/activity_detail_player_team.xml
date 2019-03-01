@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.team.player.detail.DetailPlayerTeamActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardPreventCornerOverlap="false">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:padding="8dp">
+                    <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="117dp" app:srcCompat="@drawable/logo_football"
+                            android:layout_gravity="center" android:id="@+id/imagePlayer"/>
+                    <TextView
+                            android:text="@string/init_player_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/tvPlayerName"
+                            android:gravity="center" android:textStyle="bold" android:textSize="18sp"/>
+
+                    <TextView
+                            android:text="@string/init_player_position"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center" android:id="@+id/tvPlayerPosition"/>
+                    <TextView
+                            android:text="@string/init_player_birth_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center" android:id="@+id/tvPlayerBirthDate"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginTop="4dp"
+                            android:background="@android:color/darker_gray" />
+                    <TextView
+                            android:text="@string/init_player_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center" android:id="@+id/tvPlayerDescription"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.team.overview.OverviewTeamFragment"
+             android:background="@android:color/transparent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:fillViewport="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:paddingLeft="16dp" android:paddingRight="16dp"
+                android:paddingBottom="16dp" android:paddingTop="8dp"
+                android:background="@color/whiteTransparent">
+            <TextView
+                    android:text="@string/manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textStyle="bold"
+                    android:gravity="center"/>
+            <TextView
+                    android:text="@string/init_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:gravity="center"
+                    android:textSize="12sp" android:id="@+id/tvManager"/>
+            <TextView
+                    android:text="@string/stadium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:gravity="center"
+                    android:textStyle="bold" android:paddingTop="8dp"/>
+            <TextView
+                    android:text="@string/init_stadium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:gravity="center"
+                    android:textSize="12sp" android:id="@+id/tvStadium"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textSize="14sp"
+                    android:text="@string/description" android:textStyle="bold" android:gravity="center"
+                    android:paddingTop="8dp"/>
+            <TextView
+                    android:text="@string/init_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:textSize="12sp"
+                    android:gravity="center" tools:fitsSystemWindows="false" android:inputType="textMultiLine"
+                    android:id="@+id/tvDescription"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
